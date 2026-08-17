@@ -1,0 +1,180 @@
+/* =====================================================
+   DEEPSHIELD AI
+   Version 1
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ---------- Global ---------- */
+
+html, body, [class*="css"]{
+    font-family: 'Inter', sans-serif;
+}
+
+#MainMenu{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+.stApp{
+    background:#F8FAFC;
+}
+
+/* ---------- Layout ---------- */
+
+.block-container{
+    max-width:1200px;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+/* ---------- Hero ---------- */
+
+.hero{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:800;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#6B7280;
+    max-width:760px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* ---------- Info Cards ---------- */
+
+div[data-testid="stAlert"]{
+    background:#FFFFFF !important;
+    border:1px solid #E5E7EB !important;
+    color:#111827 !important;
+    border-radius:18px;
+     box-shadow:0 8px 25px rgba(15,23,42,.06);
+
+
+}
+
+/* Alert Text */
+
+div[data-testid="stAlert"] *{
+
+    color:#111827 !important;
+
+}
+
+/* ---------- Upload ---------- */
+
+section[data-testid="stFileUploader"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    border:2px dashed #CBD5E1;
+
+}
+
+/* ---------- Uploaded Image ---------- */
+
+img{
+
+    border-radius:18px;
+
+}
+
+/* ---------- Success ---------- */
+
+div[data-testid="stSuccess"]{
+    background:#ECFDF5 !important;
+    color:#166534 !important;
+    border:1px solid #BBF7D0 !important;
+    border-radius:15px;
+
+}
+div[data-testid="stSuccess"] *{
+
+    color:#166534 !important;
+
+}
+
+/* ---------- Footer ---------- */
+
+.footer{
+
+    text-align:center;
+
+    color:#94A3B8;
+
+    padding:25px;
+
+}
+
+/* ==========================================
+   AI Dashboard Card
+========================================== */
+
+.dashboard-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.08);
+    margin-bottom: 20px;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 20px;
+}
+
+.dashboard-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.dashboard-label {
+    color: #64748B;
+    font-weight: 500;
+}
+
+.dashboard-value {
+    color: #0F172A;
+    font-weight: 700;
+}
+
+.result-badge {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.badge-real {
+    color: #16A34A;
+}
+
+.badge-fake {
+    color: #DC2626;
+}

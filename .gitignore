@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# Temporary files
+temp_*.jpg
+temp_*.png
+
+# Model files (too large)
+DeepShield_CNN.keras
+*.keras
+*.h5
+*.pkl
+
+# PDF reports
+*.pdf
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
