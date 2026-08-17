@@ -87,7 +87,7 @@ PDF Report Generation
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 | Category | Technologies |
 |-----------|-------------|
@@ -134,17 +134,27 @@ DeepShield_AI/
 
 ---
 
+## 📊 Model Overview
+
+The system uses a Convolutional Neural Network (CNN) trained to distinguish between real and AI-generated facial images.
+
+### Model Workflow
+
+1. Image Upload
+2. Image Preprocessing
+3. CNN Inference
+4. Confidence Calculation
+5. Grad-CAM Visualization
+6. AI Reasoning Generation
+7. PDF Report Export
+
+---
+
 # 📸 Application Screenshots
 
 ## Landing Page
 
 ![Landing Page](assets/Landing%20Page.jpeg)
-
----
-
-## Original Uploaded Image
-
-![Original Image](assets/Original%20image.jpeg)
 
 ---
 
@@ -166,6 +176,12 @@ DeepShield_AI/
 
 ---
 
+## Grad-CAM Original Uploaded Image
+
+![Original Image](assets/Original%20image.jpeg)
+
+---
+
 ## Grad-CAM Heatmap
 
 ![Heatmap](assets/Heatmap.jpeg)
@@ -184,6 +200,31 @@ DeepShield_AI/
 
 ---
 
+## 📄 Explainable AI (XAI)
+
+DeepShield AI integrates Grad-CAM (Gradient-weighted Class Activation Mapping) to visualize which regions of a face influenced the model's decision.
+
+Benefits:
+
+- Improves transparency
+- Increases trust in predictions
+- Helps identify suspicious facial regions
+- Supports explainable decision making
+
+---
+
+## 📈 Output Generated
+
+For every uploaded image, the system provides:
+
+- Prediction Label
+- Confidence Score
+- Heatmap Visualization
+- Overlay Visualization
+- AI Reasoning
+- Downloadable PDF Report
+
+---
 ## Exportable PDF Report
 
 ![PDF Report](assets/Export%20Report.jpeg)
