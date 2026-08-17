@@ -200,6 +200,13 @@ The system uses a Convolutional Neural Network (CNN) trained to distinguish betw
 
 ---
 
+## Exportable PDF Report
+
+![PDF Report](assets/Export%20Report.jpeg)
+
+---
+
+
 ## 📄 Explainable AI (XAI)
 
 DeepShield AI integrates Grad-CAM (Gradient-weighted Class Activation Mapping) to visualize which regions of a face influenced the model's decision.
@@ -223,11 +230,6 @@ For every uploaded image, the system provides:
 - Overlay Visualization
 - AI Reasoning
 - Downloadable PDF Report
-
----
-## Exportable PDF Report
-
-![PDF Report](assets/Export%20Report.jpeg)
 
 ---
 
